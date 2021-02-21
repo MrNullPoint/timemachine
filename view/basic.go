@@ -24,6 +24,8 @@ func NewTimeContainer() *fyne.Container {
 		content.Add(addMore())
 	}))
 
+	content.Add(addMore())
+
 	return content
 }
 
