@@ -2,7 +2,7 @@ package main
 
 import (
 	"fyne.io/fyne/v2/app"
-	"github.com/mrnullpoint/timemachine/view"
+	"github.com/MrNullPoint/timemachine/view"
 )
 
 func main() {
