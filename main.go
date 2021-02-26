@@ -11,8 +11,7 @@ func main() {
 	tApp := app.New()
 
 	tWindow := tApp.NewWindow("Time Machine")
-
-	tWindow.SetContent(view.NewTimeContainer())
+	tWindow.SetContent(view.NewMainView())
 
 	tWindow.ShowAndRun()
 }
