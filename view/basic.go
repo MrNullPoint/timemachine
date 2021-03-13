@@ -8,7 +8,8 @@ import (
 func NewMainView() fyne.CanvasObject {
 	timeItem := container.NewTabItem("time", NewTimeContainer())
 	md5Item := container.NewTabItem("md5", NewMd5Container())
-	content := container.NewAppTabs(timeItem, md5Item)
+	encodeItem := container.NewTabItem("encode", NewEncodeContainer())
+	content := container.NewAppTabs(timeItem, md5Item, encodeItem)
 	return content
 }
 
